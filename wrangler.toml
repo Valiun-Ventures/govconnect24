@@ -1,0 +1,5 @@
+name = "govconnect24"
+compatibility_date = "2026-02-07"
+
+[assets]
+directory = "."
