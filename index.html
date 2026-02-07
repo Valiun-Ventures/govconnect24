@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GovConnect 24 - Government Tender Portal</title>
+    <meta name="description" content="Access verified government tenders across major sectors and regions in India." />
+    <meta name="author" content="GovConnect 24" />
+
+    <link rel="icon" href="https://ik.imagekit.io/icexaeqrp/unnamed%20(2).png" />
+    <link rel="apple-touch-icon" href="https://ik.imagekit.io/icexaeqrp/unnamed%20(2).png" />
+
+    <meta property="og:title" content="GovConnect 24 - Government Tender Portal" />
+    <meta property="og:description" content="Find and win government tenders with verified listings and expert guidance." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@GovConnect 24" />
+    <meta name="twitter:image" content="/og-image.png" />
+    <script type="module" crossorigin src="./assets/index-CVq230AZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CrCt4s5C.css">
+  </head>
+
+  <body>
+    <div id="app-loader" class="app-loader">
+      <div class="app-loader__pulse"></div>
+      <div class="app-loader__grid"></div>
+      <div class="app-loader__content">
+        <img
+          src="https://ik.imagekit.io/icexaeqrp/unnamed%20(1).png?tr=f-auto,q-auto,w-200"
+          alt="GovConnect 24"
+          class="app-loader__logo"
+        />
+        <div class="app-loader__bar">
+          <span class="app-loader__fill" id="app-loader-fill"></span>
+        </div>
+        <div class="app-loader__percent">
+          Loading <span id="app-loader-percent">1</span>%
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <script>
+      (function () {
+        var duration = 1250;
+        var start = performance.now();
+        var fill = document.getElementById("app-loader-fill");
+        var label = document.getElementById("app-loader-percent");
+
+        function tick(now) {
+          var progress = Math.min(1, (now - start) / duration);
+          var percent = Math.max(1, Math.round(progress * 100));
+          if (fill) fill.style.width = percent + "%";
+          if (label) label.textContent = String(percent);
+          if (progress < 1) {
+            requestAnimationFrame(tick);
+          }
+        }
+
+        requestAnimationFrame(tick);
+      })();
+    </script>
+
+    <style>
+      .app-loader {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle at 12% 18%, rgba(92, 77, 255, 0.25), transparent 48%),
+          radial-gradient(circle at 88% 20%, rgba(0, 194, 255, 0.22), transparent 42%),
+          radial-gradient(circle at 70% 85%, rgba(255, 200, 87, 0.22), transparent 45%),
+          linear-gradient(135deg, #f4f7ff 0%, #f7fbff 45%, #ffffff 100%);
+        z-index: 9999;
+        overflow: hidden;
+        transition: opacity 400ms ease, visibility 400ms ease;
+      }
+      .app-loader.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .app-loader__content {
+        width: min(520px, 90vw);
+        text-align: center;
+        padding: 0 24px;
+        position: relative;
+        z-index: 2;
+      }
+      .app-loader__logo {
+        width: 140px;
+        height: auto;
+        margin: 0 auto 24px;
+        display: block;
+        filter: drop-shadow(0 16px 24px rgba(36, 50, 74, 0.2));
+        animation: float 5s ease-in-out infinite;
+      }
+      .app-loader__bar {
+        height: 12px;
+        border-radius: 999px;
+        background: rgba(92, 77, 255, 0.12);
+        overflow: hidden;
+        margin: 14px 0 16px;
+      }
+      .app-loader__fill {
+        display: block;
+        height: 100%;
+        width: 1%;
+        background: linear-gradient(135deg, #5c4dff 0%, #00c2ff 100%);
+        transition: width 200ms ease;
+      }
+      .app-loader__percent {
+        font-family: "Noto Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #24324a;
+      }
+      .app-loader__pulse {
+        position: absolute;
+        inset: -20%;
+        background: radial-gradient(circle, rgba(92, 77, 255, 0.16), transparent 60%);
+        filter: blur(0px);
+        animation: pulseGlow 6s ease-in-out infinite;
+        z-index: 1;
+      }
+      .app-loader__grid {
+        position: absolute;
+        inset: 0;
+        background-image: linear-gradient(rgba(36, 50, 74, 0.08) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(36, 50, 74, 0.08) 1px, transparent 1px);
+        background-size: 80px 80px;
+        opacity: 0.12;
+        -webkit-mask-image: radial-gradient(circle at 50% 50%, black, transparent 70%);
+                mask-image: radial-gradient(circle at 50% 50%, black, transparent 70%);
+        animation: drift 18s linear infinite;
+        z-index: 0;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .app-loader__fill {
+          transition: none;
+        }
+        .app-loader__logo,
+        .app-loader__pulse,
+        .app-loader__grid {
+          animation: none;
+        }
+      }
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      @keyframes pulseGlow {
+        0%, 100% {
+          opacity: 0.5;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+      }
+      @keyframes drift {
+        0% {
+          transform: translateY(0);
+        }
+        100% {
+          transform: translateY(-80px);
+        }
+      }
+    </style>
+  </body>
+</html>
