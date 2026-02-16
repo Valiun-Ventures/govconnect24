@@ -32,6 +32,26 @@ const tendersData = [
         deadline: "Feb 23, 2026, 6:00 PM",
         category: "Procurement",
         status: "Live"
+    },
+    {
+        id: "morena-solar-infrastructure",
+        title: "Morena Phase-1 Solar Park Transmission Infrastructure Project",
+        department: "GovConnect24",
+        location: "Morena, Madhya Pradesh",
+        value: "Rs 500 Cr - 1500+ Cr",
+        deadline: "Refer to portal",
+        category: "Solar Power",
+        status: "Live"
+    },
+    {
+        id: "nhsrcl-multimedia-agency",
+        title: "Selection of Multimedia & Social Media Agency - NHSRCL",
+        department: "National High Speed Rail Corporation Limited (Bullet Train Project)",
+        location: "Delhi / NCR, Gujarat, Maharashtra",
+        value: "Rs 1.06 Cr+",
+        deadline: "Refer to portal",
+        category: "IT Services",
+        status: "Live"
     }
 ];
 
