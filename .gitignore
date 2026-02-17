@@ -1,4 +1,4 @@
 node_modules/
 .wrangler/
 .DS_Store
-*.zip
+# *.zip removed to allow tender documents

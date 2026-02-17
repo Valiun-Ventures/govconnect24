@@ -47,6 +47,10 @@
       var fill = document.getElementById("app-loader-fill");
       var label = document.getElementById("app-loader-percent");
 
+      window.finishLoader = function () {
+        duration = 50; // Speed up completion
+      };
+
       function tick(now) {
         var progress = Math.min(1, (now - start) / duration);
         var percent = Math.max(1, Math.round(progress * 100));

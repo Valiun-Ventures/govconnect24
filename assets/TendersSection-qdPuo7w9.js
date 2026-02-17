@@ -14,6 +14,26 @@ const IndianRupee = createIcon("IndianRupee", [
 
 const tendersData = [
     {
+        id: "bhopal-furniture-supply",
+        title: "Furniture Supply for Govt. Law Colleges in Narmadapuram and Sehore",
+        department: "Govt. Law College, Narmadapuram & Ichhawar",
+        location: "Sehore & Narmadapuram, MP",
+        value: "Rs 49.81 Lakh",
+        deadline: "Feb 25, 2026, 05:30 PM",
+        category: "Procurement",
+        status: "Live"
+    },
+    {
+        id: "uda-creative-agency-empanelment",
+        title: "Empanelment for Creative Content & 3D Visualization - UDA",
+        department: "Ujjain Development Authority (UDA)",
+        location: "Ujjain, Madhya Pradesh",
+        value: "Rs 3.86 Cr",
+        deadline: "Feb 20, 2026, 05:30 PM",
+        category: "IT Services",
+        status: "Live"
+    },
+    {
         id: "pwd-division-1-indore",
         title: "Center Divider and Central Lighting on Niranjanpur Chauraha to Mangaliya Road (Old AB Road)",
         department: "PWD Division No. 1, Indore (Govt. of Madhya Pradesh)",
@@ -31,26 +51,6 @@ const tendersData = [
         value: "Rs 14.51 Cr",
         deadline: "Feb 23, 2026, 6:00 PM",
         category: "Procurement",
-        status: "Live"
-    },
-    {
-        id: "morena-solar-infrastructure",
-        title: "Morena Phase-1 Solar Park Transmission Infrastructure Project",
-        department: "GovConnect24",
-        location: "Morena, Madhya Pradesh",
-        value: "Rs 500 Cr - 1500+ Cr",
-        deadline: "Refer to portal",
-        category: "Solar Power",
-        status: "Live"
-    },
-    {
-        id: "nhsrcl-multimedia-agency",
-        title: "Selection of Multimedia & Social Media Agency - NHSRCL",
-        department: "National High Speed Rail Corporation Limited (Bullet Train Project)",
-        location: "Delhi / NCR, Gujarat, Maharashtra",
-        value: "Rs 1.06 Cr+",
-        deadline: "Refer to portal",
-        category: "IT Services",
         status: "Live"
     }
 ];
