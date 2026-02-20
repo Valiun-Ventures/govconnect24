@@ -14,6 +14,37 @@ const IndianRupee = createIcon("IndianRupee", [
 
 const tendersData = [
     {
+        id: "aai-goa-led-sitc",
+
+        title: "SITC of LED Lights at Goa International Airport",
+        department: "Airports Authority of India (AAI)",
+        location: "Goa International Airport",
+        value: "Rs 83.90 Lakh",
+        deadline: "Refer to tender",
+        category: "Electrical Works",
+        status: "Live"
+    },
+    {
+        id: "kukshi-stp-project",
+        title: "Interception & Diversion + Sewage Treatment Plant (STP) Setup",
+        department: "Nagar Parishad Kukshi, Dist. Dhar (M.P.)",
+        location: "Kukshi, Dhar, Madhya Pradesh",
+        value: "Rs 7.77 Cr",
+        deadline: "Mar 04, 2026",
+        category: "Civil Construction",
+        status: "Live"
+    },
+    {
+        id: "forest-dept-solar-project",
+        title: "Solar Street Light + High Mast Installation (Social Forestry)",
+        department: "Forest Department (Social Forestry Circle), Jabalpur",
+        location: "Jabalpur Division, MP",
+        value: "Rs 1 Cr+ (Est.)",
+        deadline: "Feb 25, 2026, 02:00 PM",
+        category: "Solar Power",
+        status: "Live"
+    },
+    {
         id: "bhopal-furniture-supply",
         title: "Furniture Supply for Govt. Law Colleges in Narmadapuram and Sehore",
         department: "Govt. Law College, Narmadapuram & Ichhawar",
