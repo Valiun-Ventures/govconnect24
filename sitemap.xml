@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url><loc>https://govconnect24.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://govconnect24.com/about</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services</loc><priority>0.9</priority></url>
+  <url><loc>https://govconnect24.com/regions</loc><priority>0.9</priority></url>
+  <url><loc>https://govconnect24.com/tenders</loc><priority>0.9</priority></url>
+  <url><loc>https://govconnect24.com/blog</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/contact</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/privacy</loc><priority>0.5</priority></url>
+  <url><loc>https://govconnect24.com/terms</loc><priority>0.5</priority></url>
+
+  <!-- Regions -->
+  <url><loc>https://govconnect24.com/region/madhya-pradesh</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/region/rajasthan</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/region/chhattisgarh</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/region/gujarat</loc><priority>0.8</priority></url>
+
+  <!-- Service Categories -->
+  <url><loc>https://govconnect24.com/services/service-civil-construction-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-electrical-works</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-water-supply-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/mechanical-job-works-tenders</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-it-service-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-procurement-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-medical-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/education-department-tenders</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/transport-and-logistics</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-manpower-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/agriculture-department-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/forest-tenders</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/consultancy-services-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/mining-tenders</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/metro</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/service-solar-power-tender</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/rooftop-solar-systems</loc><priority>0.8</priority></url>
+  <url><loc>https://govconnect24.com/services/solar-street-lighting-tenders</loc><priority>0.8</priority></url>
+
+  <!-- Blog Posts -->
+  <url><loc>https://govconnect24.com/blog/water-supply-project-tender-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/effluent-treatment-plant-tenders-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/mining-equipment-and-truck-tenders-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/road-construction-tender-notice-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/electrical-contractors-tenders-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/civil-construction-tenders-guide</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/expanding-reach-new-tenders</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/how-to-win-government-tenders</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/understanding-emd-bid-security</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/top-sectors-government-tenders</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/gem-portal-e-procurement</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/common-tender-bidding-mistakes</loc><priority>0.7</priority></url>
+  <url><loc>https://govconnect24.com/blog/solar-power-tenders-india</loc><priority>0.7</priority></url>
+
+  <!-- Subcategories (Partial list as examples, but focusing on the structure) -->
+  <url><loc>https://govconnect24.com/services/service-civil-construction-tender/road-and-building-department-tender</loc><priority>0.6</priority></url>
+  <url><loc>https://govconnect24.com/services/service-civil-construction-tender/bridge-construction-tender</loc><priority>0.6</priority></url>
+  <url><loc>https://govconnect24.com/services/service-civil-construction-tender/building-construction-tender</loc><priority>0.6</priority></url>
+  <url><loc>https://govconnect24.com/services/service-civil-construction-tender/drainage-and-sewer-line-tender</loc><priority>0.6</priority></url>
+</urlset>
